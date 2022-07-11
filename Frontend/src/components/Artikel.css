@@ -1,0 +1,50 @@
+.DataInfo {
+  padding: var(--spacing-xxl) var(--spacing-l);
+}
+.DataInfo h2 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+
+.card {
+  margin-bottom: 50px;
+}
+
+.card__background {
+  margin-left: 60px;
+  margin-top: 10px;
+  transform-origin: center;
+  transform: scale(1) translateZ(0);
+  transition: filter 200ms linear, transform 500ms linear;
+}
+.card__body {
+  transform-origin: center;
+  transform: scale(1) translateZ(0);
+  transition: filter 200ms linear, transform 500ms linear;
+}
+
+.card:hover .card__background {
+  transform: scale(1.05) translateZ(0);
+}
+.card:hover .card__body {
+  transform: scale(1.05) translateZ(0);
+}
+.bps {
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+
+.btn-bps {
+  margin-top: 48px;
+}
+.btn-bmkg {
+  margin-top: 48px;
+}
+.petabencana {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.btn-petabencana {
+  margin-top: 42px;
+}

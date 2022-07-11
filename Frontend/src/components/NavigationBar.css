@@ -1,0 +1,46 @@
+.navbar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+
+  font-weight: bold;
+}
+
+.nav {
+  margin: 0px 24px;
+  position: relative;
+  font-size: 20px;
+}
+.nav::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  content: " ";
+  position: absolute;
+  inset: 0 0 0 0;
+  background: #7da2ff53;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+.nav:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.logo {
+  font-weight: bold;
+}
+.WebDesc {
+  background-image: url(../assets/bg1.png);
+  background-size: cover;
+  height: 600px;
+}
+.textBox h1 {
+  margin: 0 80px 0 100px;
+  padding: 200px 0;
+  color: white;
+}
+.WeatherBox {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+}
